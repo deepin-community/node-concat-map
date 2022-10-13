@@ -1,0 +1,6 @@
+version=4
+opts=\
+dversionmangle=auto,\
+filenamemangle=s/.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-concat-map-$1/ \
+https://github.com/substack/node-concat-map/tags \
+.*/.*/v?([\d\.]+).tar.gz
